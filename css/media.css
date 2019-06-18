@@ -7,7 +7,18 @@
     }
     .shoreMain{
     flex-direction: row;
-    }    
+    } 
+    .shoreReverse{
+        flex-direction: row-reverse;
+    }
+    .flex60{
+        flex: 0 0 60%;
+         max-width: 60%;
+    }
+    .flex40{
+        flex: 0 0 40%;
+         max-width: 40%;
+    }
     .col-lg-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;

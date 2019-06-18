@@ -54,7 +54,7 @@
   width: 100vw;
   height: 100vh;
   min-height: 35rem;
-  padding: 15rem 0;
+  //padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
@@ -359,7 +359,8 @@ footer {
 
 .img-fluid {
     max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .text-white {
     color: #fff!important;
@@ -378,15 +379,13 @@ footer {
 }
 .shoreMain{
     display: flex;
+    width: 100%;
     
 }
 .h-100 {
     height: 100%!important;
 }
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
+
 .row {
     display: flex;
     flex-wrap: wrap;
