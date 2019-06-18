@@ -16,12 +16,19 @@
       flex-direction: row;
       width: 100vw;
   }
+.navbar-nav{
+ list-style: none;
+}
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
   color: #64a19d;
   border: 1px solid #64a19d;
+    border-radius: .25rem;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -30,10 +37,10 @@
 
 #mainNav .navbar-brand {
   padding: .5rem 0;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 700;
       padding: .5rem 0;
-    width: 30vw;
+    flex: 0 0 60%;
     margin-left: 10px;
     
 }
@@ -338,7 +345,7 @@ footer {
 }
 
 #menu.active {
-    height: 200px;
+    height: 150px;
     opacity: 1;
     
     transition: all 2s;
@@ -353,7 +360,7 @@ footer {
     display: flex;
     flex-direction: row;
     transition: all 0.4s;
-    width: 70vw;
+    flex: 0 0 30%;
     align-content: flex-end;
     }
 
@@ -425,6 +432,12 @@ footer {
     max-width: 32.333333%;
     margin-left: 15px;
     margin-bottom: 15px;
+}
+.BGWhite{
+    background-color: white!important;
+}
+.FontBL{
+    color: rgba(0, 0, 0, 0.5)!important;
 }
 
 

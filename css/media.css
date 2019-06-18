@@ -94,6 +94,16 @@
         align-content: center;
         align-items: center;
     }
+    #mainNav{
+        background-color: white;
+    }
+    #mainNav .navbar-brand {
+        flex: 0 0 60%;
+    }
+    
+    #navbarResponsive {
+        flex: 0 0 30%;
+    }
 }
 .fixed-top {
     position: fixed;
@@ -102,5 +112,6 @@
     left: 0;
     z-index: 1030;
 }
+
 
 /*Code from the html course*/
