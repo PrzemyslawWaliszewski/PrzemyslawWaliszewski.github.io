@@ -1,0 +1,95 @@
+@media (min-width: 992px) {
+    //My Flex 
+     .container{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    .shoreMain{
+    flex-direction: row;
+    }    
+    .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+    .mb-lg-0, .my-lg-0 {
+    margin-bottom: 0!important;
+    }
+    
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #mainNav .nav-link:active {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+    #hamburger{
+    display: none;
+    }
+    #menu {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.4s;
+    align-content: flex-end;
+    }   
+    .width70{
+        width: 95vw;
+    }
+}
+@media (max-width: 992px) {
+#menu {
+    display: flex;
+    transition: all 0.4s;
+    height: 0;
+    opacity: 0;
+}
+    .shoreMain{
+    flex-direction: column;
+    }
+    .width70{
+        width: 70vw;
+        align-content: center;
+        align-items: center;
+    }
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/*Code from the html course*/
